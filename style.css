@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0a0a0f;
+  color: #ffffff;
+}
+
+@layer components {
+  .card {
+    @apply bg-[#1e1e2e] rounded-xl p-6 border border-[#2a2a3a];
+  }
+  .btn-primary {
+    @apply bg-[#5865f2] hover:bg-[#4752c4] text-white font-semibold py-2 px-4 rounded-lg transition-all;
+  }
+  .btn-danger {
+    @apply bg-[#ed4245] hover:bg-[#c03537] text-white font-semibold py-2 px-4 rounded-lg transition-all;
+  }
+}
