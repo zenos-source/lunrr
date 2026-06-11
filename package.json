@@ -1,12 +1,11 @@
 {
-  "name": "licensing-api",
+  "name": "discord-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "discord.js": "^14.14.1"
   }
 }
